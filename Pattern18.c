@@ -14,9 +14,9 @@ OUTPUT:       *       #       *       #       *
  {
     int iCnt=0;
     
-    for(iCnt=1; iCnt<=iNo; iCnt++)
+    for(iCnt=0; iCnt<=iNo; iCnt++)
     
-     if((iCnt%2)!= 0)
+     if((iCnt % 2)== 0)
     {
         printf("#\t");
     }
